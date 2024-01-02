@@ -105,7 +105,7 @@ export default defineType({
       },
     }),
     defineArrayMember({
-      type: 'code',
+      type: 'blockContent',
       name: 'codeBlock',
       title: 'Code Block',
       options: {
