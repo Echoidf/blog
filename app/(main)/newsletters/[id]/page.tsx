@@ -39,15 +39,7 @@ export async function generateMetadata({ params }: { params: { id: string } }) {
       title: newsletter.subject ?? '',
       description: newsletter.subject ?? '',
       type: 'article',
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: newsletter.subject ?? '',
-      description: newsletter.subject ?? '',
-      images: imageUrl ? [{ url: imageUrl }] : undefined,
-      site: '@thecalicastle',
-      creator: '@thecalicastle',
-    },
+    }
   } satisfies Metadata
 }
 

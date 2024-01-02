@@ -32,19 +32,7 @@ export const generateMetadata = async ({
         },
       ],
       type: 'article',
-    },
-    twitter: {
-      images: [
-        {
-          url: mainImage.asset.url,
-        },
-      ],
-      title,
-      description,
-      card: 'summary_large_image',
-      site: '@thecalicastle',
-      creator: '@thecalicastle',
-    },
+    }
   } satisfies Metadata
 }
 
